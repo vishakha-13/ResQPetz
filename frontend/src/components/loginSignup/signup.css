@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.signupMainContainer{
+    background-image: url("../assets/loginBackground.svg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signupContentContainer{
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    height: 75vh;
+    background-color: #e7e7e7;
+    border-radius: 20px;
+}
+
+.signupImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.signupContentContainer .signupImage img{
+    width: 80%;
+}
+
+
+.signupContentContainer .signupData{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+}
+
+.signupContentContainer .formData{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signupContentContainer .signupData h2{
+    font-size: 2.5vw;
+    padding-bottom: .1vh;
+}
+
+
+.signupContentContainer .signupData label{
+    font-size: 1vw;
+    margin-top: 2vh;
+}
+
+
+.signupContentContainer .signupData input{
+    width: 24vw;
+    height: 5vh;
+    border-radius: 30px;
+    border: none;
+    padding-left: 2vw;
+}
+
+
+.signupData .signupsignupButton {
+    align-items: center;
+    margin-top: 2vh;
+    appearance: none;
+    background-color: #FA902B;
+    border-radius: 30px;
+    border-width: 0;
+    box-shadow: rgba(228, 139, 14, 0.2) 0 2px 4px,rgba(45, 35, 66, 0.15) 0 7px 13px -3px,#FA902B 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+   }
+   
+   .signupsignupButton:focus {
+    box-shadow: #FA902B 0 0 0 1.5px inset, rgba(128, 74, 4, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+   }
+   
+   .signupsignupButton:hover {
+    box-shadow: rgba(205, 101, 9, 0.3) 0 4px 8px, rgba(166, 65, 6, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+   }
+   
+   .signupsignupButton:active {
+    box-shadow: #ffffff 0 3px 7px inset;
+    transform: translateY(2px);
+   }
+.signupData .signInOption{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+
+.signupData .signInOption p{
+    font-size: 1.2vw;
+}
+
+.signupData .signInOption a{
+    text-decoration: none;
+    color: #f67700;
+    font-weight:600;
+}

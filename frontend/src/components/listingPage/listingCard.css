@@ -1,0 +1,85 @@
+*{padding: 0; margin: 0;}
+
+.cardMainContainer{
+    margin: 1vw;
+    padding: 0.5vw;
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.cardMainContainer:hover{
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.5);
+}
+
+.cardMainContainer hr{
+    width: 100%;
+}
+
+.cardMainContainer .cardImgContainer{
+    height: 10vw;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.cardImgContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cardMainContainer .cardDeatilsContainer{
+   margin-top: 5px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.cardDeatilsContainer h3{
+    font-size: 1.5vw;
+}
+
+.cardDeatilsContainer .locAndBreed{
+    display: flex;
+    font-size: 1vw;
+    flex-direction: column;
+}
+
+
+.petDescription{
+    padding-top: 1vh;
+    font-size: 70%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.adoptNow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 20%;
+    margin-top: 1vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+
+}
+
+.adoptNow a{
+    font-size: 70%;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
